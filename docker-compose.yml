@@ -1,0 +1,17 @@
+services:
+  client:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - BACKEND_HOST=backend
+    ports:
+      - "3000:80"
+    networks:
+      - backend
+    volumes:
+      - ./src:/app/src
+      - ./public:/app/public
+
+networks:
+  backend:

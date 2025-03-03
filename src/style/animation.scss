@@ -1,0 +1,15 @@
+.appear-from-bottom {
+  animation: appear-from-bottom 1s cubic-bezier(0.65, 0.05, 0.36, 1) forwards;
+  opacity: 0;
+}
+
+@keyframes appear-from-bottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0%);
+    opacity: 1;
+  }
+}
