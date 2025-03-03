@@ -43,7 +43,7 @@ Frontend:
 
 Clone the project:
 ```shell
-git clone git@github.com:fyberov-dev/socialmedia-frontent.git
+git clone git@github.com:fyberov-dev/socialmedia-frontend.git
 ```
 
 Install packages:
